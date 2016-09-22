@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/c4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/title_bar_tab"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/navigationHeader"
+            android:layout_marginBottom="10dp"
+            android:background="#1f000000" />
+
+        <RelativeLayout
+            android:id="@+id/navigationHeader"
+            android:layout_width="match_parent"
+            android:layout_height="178dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/myPrimaryColor"
+            android:paddingTop="5dp" >
+
+            <com.wei.mobileoffice.ui.CircleImageView
+                android:id="@+id/head_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/customer_chufang" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/head_icon"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="5dp"
+                android:text="Mersens"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_drawer_logout" />
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="2dp"
+                android:text="重要客户"
+                android:textColor="@color/orange"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.wei.mobileoffice.ui.PagerTab
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:background="@drawable/bg_tab"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tabs"
+            tools:context=".customer.CustomerInfoActivity"/>
+
+        <ImageButton
+            android:id="@+id/add"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="18dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/fab"
+            android:src="@drawable/fab_add" />
+
+    </RelativeLayout>
+
+</LinearLayout>

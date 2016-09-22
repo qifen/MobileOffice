@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">我的超客</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 通用相关的string -->
+    <string name="blank"></string>
+    <string name="dlg_title_wait">请稍等片刻&#8230;</string>
+    <string name="dlg_msg_wait">Loading&#8230;</string>
+    <string name="ensure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="error">错误</string>
+    <string name="warn">警告</string>
+    <string name="error_network">网络访问出现问题，请重试</string>
+    <string name="server_error">网络访问失败，请重试</string>
+    <string name="server_error_data">数据请求失败，请重试</string>
+    <string name="auth_fail">权限校验失败，需要重新登录(%1$s)</string>
+    <string name="auth_fail_login">登录失败(%1$s)</string>
+    <string name="auth_conflict">当前登录已过期，请重新登录</string>
+    <string name="auth_login_fail_limit">连续登录失败,账号锁定</string>
+    <string name="auth_login_pwd_err">登录失败，请检查您的账号或者密码</string>
+    <string name="auth_null_member_seq">用户身份获取失败，请重试</string>
+    <string name="error_refresh_token">身份信息已过期，请重新登录</string>
+    <string name="token_is_null">权限校验未通过，登录失败</string><!-- token信息不全的情况 -->
+    <string name="version">Version&#160;</string>
+    <string name="app_init_uro_fail">权限初始化失败，请重试(%1$s)</string>
+    <string name="app_init_plugins_define_fail">插件列表下载失败，请重试(%1$s)</string>
+    <string name="illegal_arguments">参数错误</string>
+
+    <!-- plugin -->
+    <string name="plugin_no_permission_install">您没有权限安装此插件</string>
+    <string name="plugin_less_crm_auth_info">CRM身份信息缺失，请求失败，请在设置-账号管理中尝试刷新您的账号权限再试</string>
+    <string name="plugin_not_exist">插件不存在</string>
+    <string name="plugin_not_installed">您使用了一个未安装的插件</string>
+    <string name="plugin_no_crm_permission_current_role">您没有权限使用此插件，请选择合适的CRM角色</string>
+    <string name="plugin_not_available">此插件已下线</string>
+    <string name="plugin_install">添加应用</string>
+    <string name="plugin_use">立即使用</string>
+    <string name="plugin_uninstall">删除应用</string>
+    <string name="plugin_has_installed">已安装</string>
+    <string name="plugin_hasnot_installed">未安装</string>
+    <string name="plugin_total_number">共%1$s个</string>
+    <string name="plugin_system">功能插件</string>
+    <string name="plugin_recommend">推荐应用</string>
+    <string name="plugin_router_uri_blank">路由uri为空</string>
+    <string name="plugin_router_uri_illegal">路由uri不合法</string>
+    <string name="plugin_router_uri_id_blank">路由uri找不到插件ID</string>
+    <string name="plugin_router_uri_plugin_not_exists">对不起，未找到您要访问的插件</string>
+    <string name="plugin_router_plugin_not_avaliable">对不起，此插件已下线，无法使用</string>
+    <string name="plugin_router_uri_plugin_not_installed">请先安装[%1$s]插件</string>
+    <string name="plugin_router_action_uri_illegal">插件actionUri不合法</string>
+    <string name="plugin_router_action_uri_action_blank">插件action为空</string>
+    <string name="plugin_need_refresh_again">插件同步失败，请尝试下拉刷新再次同步</string>
+    <string name="plugin_version">版本：</string>
+    <string name="plugin_size">大小：</string>
+    <string name="app_cannot_find_page">找不到页面：</string>
+
+    <!-- 锁屏密码 页面使用 -->
+    <string name="lockscreen_ok">确定</string>
+    <string name="lockscreen_reset_pin">重置锁屏密码</string>
+    <string name="lockscreen_pin_hint">请输入手势密码解锁！</string>
+    <string name="lockscreen_pin_error">密码错误，你还有%d次机会重试</string>
+    <string name="lockscreen_reset_pin_ok">验证通过，请重新设定手势密码</string>
+    <string name="lockscreen_change_pin_error">密码错误，请重试</string>
+    <string name="lockscreen_pin_max_error">连续多次密码错误，请重新登录!</string>
+    <string name="lockscreen_new_pin">请设置手势密码!</string>
+    <string name="lockscreen_new_pin_again">请再次确认手势密码!</string>
+    <string name="lockscreen_new_pin_error">两次密码不一致，请重新设置！</string>
+    <string name="lockscreen_new_pin_short">手势密码不合法，最短4位！</string>
+    <string name="lockscreen_set_pin_ok">手势密码设置成功</string>
+
+    <string name="sdcard_not_mount">内存卡不存在</string>
+    <string name="select_photo_error">选择图片文件出错</string>
+    <string name="photo_file_error">图片文件异常！</string>
+    <string name="all_photos_submit_success">恭喜，全部照片已上传成功</string>
+
+    <string name="no_dial_phone_app">调用系统拨打电话应用失败</string>
+    <string name="no_pick_contacts_app">调用系统联系人应用失败</string>
+    <string name="no_pick_photo_app">调用系统图片选取应用失败</string>
+    <string name="no_take_photo_app">调用系统拍照应用失败</string>
+
+    <!-- pulltorefresh -->
+    <string name="pull_to_refresh_from_bottom_pull_label">上拉载入更多</string>
+    <string name="pull_to_refresh_from_bottom_release_label">放开以载入</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">正在载入…</string>
+    <!-- umeng冲突字段 -->
+    <string name="pull_to_refresh_pull_label" translatable="false">下拉刷新</string>
+    <string name="pull_to_refresh_release_label" translatable="false">松开即可刷新</string>
+    <string name="pull_to_refresh_refreshing_label" translatable="false">加载中&#8230;</string>
+    <string name="pull_to_refresh_tap_label" translatable="false">点击刷新</string>
+
+    <string-array name="business_names">
+        <item>客户跟进</item>
+        <item>商机跟进</item>
+        <item>合同跟进</item>
+    </string-array>
+
+    <string-array name="customer_names">
+        <item>全部客户</item>
+        <item>我的客户</item>
+    </string-array>
+
+    <string-array name="customer_info_names">
+        <item>跟进记录</item>
+        <item>联系人</item>
+        <item>商机</item>
+        <item>合同</item>
+    </string-array>
+
+    <string-array name="contract_names">
+        <item>全部合同</item>
+        <item>我的合同</item>
+    </string-array>
+
+    <string-array name="contract_info_names">
+        <item>跟进记录</item>
+    </string-array>
+
+    <string-array name="contacts_names">
+        <item>全部联系人</item>
+    </string-array>
+
+    <string-array name="opportunity_names">
+        <item>全部商机</item>
+        <item>我的商机</item>
+    </string-array>
+
+    <string-array name="opportunity_info_names">
+        <item>跟进记录</item>
+        <item>产品</item>
+        <item>合同</item>
+    </string-array>
+
+    <string-array name="product_names">
+        <item>全部产品</item>
+    </string-array>
+
+</resources>

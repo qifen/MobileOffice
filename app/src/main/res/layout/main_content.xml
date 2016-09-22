@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_light"
+    android:baselineAligned="false">
+
+    <include layout="@layout/title_bar_home"/>
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/tab_customer"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/tab_customer_img"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_customer"
+                android:background="@color/c3"/>
+
+            <TextView
+                style="@style/text_home_tab"
+                android:layout_marginTop="3dp"
+                android:text="客户" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_opportunity"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/tab_opportunity_img"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_opportunity"
+                android:background="@color/c3"/>
+
+            <TextView
+                style="@style/text_home_tab"
+                android:layout_marginTop="3dp"
+                android:text="商机"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_contract"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/tab_contract_img"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_contract"
+                android:background="@color/c3"/>
+
+            <TextView
+                style="@style/text_home_tab"
+                android:layout_marginTop="3dp"
+                android:text="合同" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/tab_business"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/tab_business_img"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_business"
+                android:background="@color/c3"/>
+
+            <TextView
+                style="@style/text_home_tab"
+                android:layout_marginTop="3dp"
+                android:text="业务" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_contacts"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/tab_contacts_img"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_contacts"
+                android:background="@color/c3"/>
+
+            <TextView
+                style="@style/text_home_tab"
+                android:layout_marginTop="3dp"
+                android:text="联系人"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_product"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/tab_product_img"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_product"
+                android:background="@color/c3"/>
+
+            <TextView
+                style="@style/text_home_tab"
+                android:layout_marginTop="3dp"
+                android:text="产品" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/transparent"/>
+
+</LinearLayout>

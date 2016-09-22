@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c5">
+
+    <include layout="@layout/title_bar_tab"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/title"
+                android:text="基本信息"
+                android:paddingTop="25dp"
+                android:paddingLeft="15dp"
+                android:textColor="@color/orange"/>
+
+            <LinearLayout
+                android:id="@+id/ll_sourceid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text_four"
+                    android:text="跟进源序号"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/myPrimaryColor"/>
+
+                <AutoCompleteTextView
+                    android:id="@+id/sourceid"
+                    style="@style/input_edittext"
+                    android:editable="false"
+                    android:textColor="@color/deep_grey"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:paddingLeft="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_sourcetype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text_four"
+                    android:text="跟进源类型(1：客户；2：商机；3：合同)"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/myPrimaryColor"/>
+
+                <AutoCompleteTextView
+                    android:id="@+id/sourcetype"
+                    style="@style/input_edittext"
+                    android:editable="false"
+                    android:textColor="@color/deep_grey"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:paddingLeft="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_createtime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text_four"
+                    android:text="创建时间"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/myPrimaryColor"/>
+
+                <AutoCompleteTextView
+                    android:id="@+id/createtime"
+                    style="@style/input_edittext"
+                    android:textColor="@color/deep_grey"
+                    android:layout_marginTop="5dp"
+                    android:editable="false"
+                    android:text=""
+                    android:paddingLeft="15dp" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/title"
+                android:text="其他信息"
+                android:paddingTop="25dp"
+                android:paddingLeft="15dp"
+                android:textColor="@color/orange"/>
+
+            <LinearLayout
+                android:id="@+id/ll_followuptype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text_four"
+                    android:text="跟进类型"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/myPrimaryColor"/>
+
+                <AutoCompleteTextView
+                    android:id="@+id/followuptype"
+                    style="@style/input_edittext"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:paddingLeft="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_creatorid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text_four"
+                    android:text="创建人"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/myPrimaryColor"/>
+
+                <AutoCompleteTextView
+                    android:id="@+id/creatorid"
+                    style="@style/input_edittext"
+                    android:textColor="@color/deep_grey"
+                    android:editable="false"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:paddingLeft="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text_four"
+                    android:text="跟进内容"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/myPrimaryColor"/>
+
+                <AutoCompleteTextView
+                    android:id="@+id/content"
+                    style="@style/input_edittext"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:paddingLeft="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_remarks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text_four"
+                    android:text="备注"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/myPrimaryColor"/>
+
+                <AutoCompleteTextView
+                    android:id="@+id/remarks"
+                    style="@style/input_edittext"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:paddingLeft="15dp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/operation"
+                style="@style/common_btn"
+                android:layout_width="330dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="修改"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

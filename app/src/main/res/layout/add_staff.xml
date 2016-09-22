@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/c4"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_bar_tab"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/c5"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/staff_name"
+        style="@style/input_edittext"
+        android:drawableLeft="@drawable/nick_icon"
+        android:drawablePadding="16dp"
+        android:hint="请输入员工姓名"
+        android:paddingLeft="16dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@color/c5"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/staff_address"
+        style="@style/input_edittext"
+        android:drawableLeft="@drawable/address_icon"
+        android:drawablePadding="16dp"
+        android:hint="请输入员工住址"
+        android:paddingLeft="16dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@color/c5"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/staff_phone"
+        style="@style/input_edittext"
+        android:drawableLeft="@drawable/phone_icon"
+        android:drawablePadding="16dp"
+        android:hint="请输入员工手机号码"
+        android:paddingLeft="16dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/c5"/>
+
+    <Button
+        android:id="@+id/add_staff"
+        style="@style/common_btn"
+        android:layout_width="330dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="完成"/>
+
+</LinearLayout>

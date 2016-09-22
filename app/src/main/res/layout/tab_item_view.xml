@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:scaleType="centerInside"
+        android:focusable="false"
+        android:padding="1dp"
+        android:src="@drawable/tab_home_btn">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textview"       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        style="@style/text_tab"
+        android:textColor="@color/selector_tab_text">
+    </TextView>
+
+</LinearLayout>

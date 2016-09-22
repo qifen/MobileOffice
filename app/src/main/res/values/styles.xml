@@ -1,0 +1,183 @@
+<resources>
+
+    <style name="input_edittext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:completionThreshold">1</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorHint">@color/special_grey</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textViewStyle">@style/ThemeTextAppearance</item>
+        <item name="android:windowBackground">@color/c4</item>
+        <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>
+    </style>
+
+    <style name="AppThemeMainTab" parent="@style/AppTheme">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- SwipeBackLayout -->
+    <style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+        <item name="shadow_left">@drawable/shadow_left</item>
+        <item name="shadow_right">@drawable/shadow_right</item>
+        <item name="shadow_bottom">@drawable/shadow_bottom</item>
+    </style>
+
+    <style name="wrap_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ActivityAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/push_left_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/push_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/push_right_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/push_right_out</item>
+    </style>
+
+    <style name="ThemeTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/c2</item>
+    </style>
+
+    <!-- H1标题 -->
+    <style name="title" parent="wrap_content">
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <style name="title_c3" parent="title">
+        <item name="android:textColor">@color/c3</item>
+    </style>
+
+    <!-- H2文字1 -->
+    <style name="text_one" parent="wrap_content">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="text_one_c2" parent="text_one">
+        <item name="android:textColor">@color/c2</item>
+    </style>
+
+    <style name="text_one_page_grey" parent="text_one">
+        <item name="android:textColor">@color/loading_page_grey</item>
+    </style>
+
+    <!-- H3文字2 -->
+    <style name="text_two" parent="wrap_content">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="text_two_c3" parent="text_two">
+        <item name="android:textColor">@color/c3</item>
+    </style>
+
+    <style name="text_two_special_grey" parent="text_two">
+        <item name="android:textColor">@color/special_grey</item>
+    </style>
+
+    <style name="text_two_page_grey" parent="text_two">
+        <item name="android:textColor">@color/loading_page_grey</item>
+    </style>
+
+    <!-- H4文字3 -->
+    <style name="text_three" parent="wrap_content">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/c3</item>
+    </style>
+
+    <style name="text_three_c2" parent="text_three">
+        <item name="android:textColor">@color/c2</item>
+    </style>
+
+    <style name="text_three_deep_grey" parent="text_three">
+        <item name="android:textColor">@color/deep_grey</item>
+    </style>
+
+    <style name="text_three_special_grey" parent="text_three">
+        <item name="android:textColor">@color/special_grey</item>
+    </style>
+
+    <!-- H5段落 -->
+    <style name="paragraph" parent="wrap_content">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/loading_page_grey</item>
+        <item name="android:lineSpacingExtra">36sp</item>
+    </style>
+
+    <!-- H6文字4 -->
+    <style name="text_four" parent="wrap_content">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="text_four_c2" parent="text_four">
+        <item name="android:textColor">@color/c2</item>
+    </style>
+
+    <style name="text_four_deep_grey" parent="text_four">
+        <item name="android:textColor">@color/deep_grey</item>
+    </style>
+
+    <!-- H7段落2 -->
+    <style name="paragraph_two" parent="wrap_content">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/c2</item>
+    </style>
+
+    <!-- H8正文标题 -->
+    <style name="article_title" parent="wrap_content">
+        <item name="android:textSize">38px</item>
+        <item name="android:textColor">@color/c2</item>
+    </style>
+
+    <!-- H9辅助文字 -->
+    <style name="auxiliary_text" parent="wrap_content">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/light_grey</item>
+    </style>
+
+    <!-- tab text -->
+    <style name="text_tab" parent="wrap_content">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <!-- home tab text -->
+    <style name="text_home_tab" parent="wrap_content">
+        <item name="android:textSize">13sp</item>
+        <item name="android:color">@color/c2</item>
+    </style>
+
+    <style name="ToastAnimation">
+        <item name="@android:windowEnterAnimation">@anim/enter_anim</item>
+        <item name="@android:windowExitAnimation">@anim/exit_anim</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- button -->
+    <style name="common_btn">
+        <item name="android:background">@drawable/work_list_common_bg</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">42dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/c3</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>

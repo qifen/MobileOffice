@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/c4"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_bar_tab"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/c5"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/change_nickname"
+        style="@style/input_edittext"
+        android:drawableLeft="@drawable/nick_icon"
+        android:drawablePadding="16dp"
+        android:hint="请输入昵称"
+        android:paddingLeft="16dp"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/c5"/>
+
+    <Button
+        android:id="@+id/send_nickname"
+        style="@style/common_btn"
+        android:layout_width="330dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="修改"/>
+
+</LinearLayout>

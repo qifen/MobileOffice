@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="red">#FF0000</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#4AC208</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange">#FE7C01</color>
+    <color name="lemonyellow">#FFFACD</color>
+    <color name="graywhite">#F5F5F5</color>
+    <color name="grayslate">#708090</color>
+    <color name="lightblue">#0083FF</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="half_transparent">#aa000000</color>
+
+    <color name="bg_tab_pressed">#6633b5e5</color>
+    <color name="bg_tab_pressed2">#ff3898ff</color>
+
+    <color name="deep_dark">#222222</color>
+    <color name="deep_grey">#999999</color>
+    <color name="light_grey">#cccccc</color>
+    <color name="loading_page_grey">#666666</color>
+    <color name="special_grey">#bbbbbb</color>
+    <color name="special_green">#247966</color>
+
+    <color name="list_normal_color">#FFDDCC</color>
+
+    <color name="c1">#1abb88</color>
+    <color name="c2">#222222</color>
+    <color name="c3">#ffffff</color>
+    <color name="c4">#DEDEDE</color>
+    <color name="c5">#e3e3e3</color>
+    <color name="c6">#00aaff</color>
+    <color name="c7">#cccccc</color>
+
+    <color name="myPrimaryColor">#3F51B5</color>
+    <color name="myPrimaryDarkColor">#3F51B5</color>
+    <color name="myAccentColor">#3F51B5</color>
+    <color name="myDrawerBackground">#F2F2F2</color>
+    <color name="myWindowBackground">#DEDEDE</color>
+    <color name="myTextPrimaryColor">#FFFFFF</color>
+    <color name="myNavigationColor">#000000</color>
+    <color name="base_color_text_black">#3e3e39</color>
+    <color name="base_color_text_gray">#DADADA</color>
+    <color name="selected_gray">#ffdbdbdb</color>
+    <!-- 下拉刷新时，颜色值 -->
+    <color name="swiperefresh_color1">#ff00ddff</color>
+    <color name="swiperefresh_color2">#ffffbb33</color>
+    <color name="swiperefresh_color3">#ffff4444</color>
+    <color name="swiperefresh_color4">#ffaa66cc</color>
+
+    <color name="midnight_blue">#141d26</color>
+    <color name="clouds">#ecf0f1</color>
+    <color name="divider">#e0e0e0</color>
+    <color name="black_alpha">#33000000</color>
+</resources>
